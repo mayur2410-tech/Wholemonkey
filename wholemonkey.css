@@ -101,7 +101,7 @@ h2{
 }
 .newlylaunched-items img{
   height: 200px;
-  width:190px;
+  width:210px;
   margin-top:;
 }
 .img-text{
@@ -133,7 +133,7 @@ h2{
  .varaint-selector{
   padding: 8px;
   margin-left: 10px;
-  width: 185px;
+  width: 210px;
   margin-top: 5px;
   border:1px solid black;
   border-radius: 5px;
@@ -153,7 +153,7 @@ h2{
  }
  
  button.add-btn{
-  width: 135px;
+  width: 160px;
   color: white;
   background-color: black;
  }
@@ -171,7 +171,7 @@ h2{
  .newlylaunched-items{
   border: 1px solid grey;
   border-radius: 5px;
-  width: 210px;
+  width: 230px;
   height: 375px;
   transition: box-shadow 0.3s ease;
  }
