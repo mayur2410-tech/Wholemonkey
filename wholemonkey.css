@@ -219,4 +219,29 @@ button.add-btn {
   width: 55rem;
   background-color: black;
 }
+.newly-launched.new{
+  
+  margin-top: 40px;
+  height: 33em;
+  background-color: #F7F7F7;
+}
 
+.newlylaunched-item.screenshot img{
+  height: 30rem;
+  width: auto;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.newlylaunched-cointainer.screenshot{
+margin-left: -20px;
+
+
+}
+.img-3{
+  display: grid;
+  grid-template-columns: repeat(3, 16.75rem); /* 300px / 16 */
+  margin-left: 250px;
+  margin-top: 60px;
+  gap: 3rem;
+}
