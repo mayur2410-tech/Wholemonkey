@@ -191,7 +191,7 @@ button.add-btn {
 
 .newlylaunched-cointainer {
   display: grid;
-  grid-template-columns: repeat(5, 18.75rem); /* 300px / 16 */
+  grid-template-columns: repeat(5, 16.75rem); /* 300px / 16 */
   margin-top: 3.75rem; /* 60px / 16 */
   margin-left: 1.25rem; /* 20px / 16 */
   gap: 2rem;
@@ -220,85 +220,3 @@ button.add-btn {
   background-color: black;
 }
 
-/* Responsive Styles */
-
-/* Tablet (768px - 1024px) */
-@media (max-width: 1024px) {
-  .nav-right {
-      margin-left: auto;
-  }
-
-  .categories-cointainer {
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
-  }
-
-  .newlylaunched-cointainer {
-      grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile (below 768px) */
-@media (max-width: 768px) {
-  .nav-right {
-      display: none; /* Hide extra navigation items */
-  }
-
-  .categories-cointainer {
-      grid-template-columns: repeat(2, 1fr);
-  }
-
-  .newlylaunched-cointainer {
-      grid-template-columns: repeat(2, 1fr);
-  }
-
-  .ad-banner {
-      margin-top: 5rem;
-  }
-}
-
-
-/* Laptop (1024px to 1440px) */
-@media (min-width: 1024px) and (max-width: 1440px) {
-  .nav-right {
-      gap: 1.25rem; /* 20px / 16 */
-      margin-left: auto;
-      margin-right: 2rem; /* 32px / 16 */
-  }
-
-  .categories-cointainer {
-      grid-template-columns: repeat(5, 1fr);
-      gap: 2rem; /* Adjust gap for spacing */
-  }
-
-  .newlylaunched-cointainer {
-      grid-template-columns: repeat(4, 1fr);
-      margin-top: 3rem; /* Reduce top margin */
-  }
-
-  .newlylaunched-items {
-      width: 16.25rem; /* 260px / 16 */
-      height: 24.375rem; /* 390px / 16 */
-  }
-
-  .ad-banner {
-      margin-top: 8rem; /* Adjust banner margin */
-  }
-
-  h2 {
-      font-size: 1.375rem; /* Slightly increase heading size */
-  }
-
-  .browse-title, .newly-title {
-      font-size: 1.625rem; /* 26px / 16 */
-  }
-
-  button.add-btn {
-      width: 12rem; /* 192px / 16 */
-  }
-
-  .video {
-      height: 25rem;
-      width: 45rem;
-  }
-}
